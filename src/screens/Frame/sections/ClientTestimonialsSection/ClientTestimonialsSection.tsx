@@ -38,7 +38,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
   return (
     <section className="w-full bg-amircani-light py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal text-center mb-4">
+        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold text-center mb-4">
           Client Reviews
         </h2>
         <p className="font-body text-amircani-primary/70 text-center text-lg mb-12">

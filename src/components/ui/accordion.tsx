@@ -16,7 +16,7 @@ const AccordionItem = ({ title, children, isOpen, onToggle }: AccordionItemProps
         onClick={onToggle}
         className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors"
       >
-        <span className="font-heading text-amircani-primary text-lg font-medium">
+        <span className="font-heading text-amircani-primary text-lg font-bold">
           {title}
         </span>
         <ChevronDown

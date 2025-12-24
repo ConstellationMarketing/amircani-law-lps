@@ -13,7 +13,7 @@ export const AboutUsSection = (): JSX.Element => {
   return (
     <section id="about-us" className="w-full bg-white pt-6 md:pt-8 pb-12 md:pb-20">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal text-center mb-12">
+        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold text-center mb-12">
           About Amircani Law
         </h2>
 
@@ -45,7 +45,7 @@ export const AboutUsSection = (): JSX.Element => {
           </div>
 
           <div className="w-full">
-            <h3 className="font-heading text-amircani-primary text-2xl font-normal text-center mb-8">
+            <h3 className="font-heading text-amircani-primary text-2xl font-bold text-center mb-8">
               Service Highlights
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">

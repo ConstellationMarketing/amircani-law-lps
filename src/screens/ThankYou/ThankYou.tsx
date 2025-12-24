@@ -12,7 +12,7 @@ export const ThankYou = (): JSX.Element => {
             </div>
           </div>
 
-          <h1 className="font-heading text-amircani-primary text-4xl md:text-5xl font-normal mb-6">
+          <h1 className="font-heading text-amircani-primary text-4xl md:text-5xl font-bold mb-6">
             Thank You!
           </h1>
 

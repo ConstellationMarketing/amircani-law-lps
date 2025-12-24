@@ -34,7 +34,7 @@ export const WhyUsSection = (): JSX.Element => {
   return (
     <section className="w-full py-12 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal text-center mb-4">
+        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold text-center mb-4">
           Service Highlights
         </h2>
         <p className="font-body text-amircani-primary/70 text-center text-lg mb-12 max-w-3xl mx-auto">
@@ -51,7 +51,7 @@ export const WhyUsSection = (): JSX.Element => {
                     <div className="w-14 h-14 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
                       <IconComponent className="w-7 h-7 text-amircani-primary" />
                     </div>
-                    <h3 className="font-heading text-amircani-primary text-lg font-medium mb-3">
+                    <h3 className="font-heading text-amircani-primary text-lg font-bold mb-3">
                       {service.title}
                     </h3>
                     <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">

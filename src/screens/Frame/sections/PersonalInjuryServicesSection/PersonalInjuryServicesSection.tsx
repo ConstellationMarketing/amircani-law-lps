@@ -6,7 +6,7 @@ export const PersonalInjuryServicesSection = (): JSX.Element => {
     <section id="practice-areas" className="w-full bg-amircani-light py-12 md:py-20">
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal mb-4">
+          <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold mb-4">
             Practice Areas
           </h2>
           <p className="font-body text-amircani-primary/70 text-base max-w-3xl mx-auto mb-8">
@@ -40,7 +40,7 @@ export const PersonalInjuryServicesSection = (): JSX.Element => {
 
         {/* CTA Section */}
         <div className="mt-16 bg-amircani-secondary rounded-lg p-12 text-center">
-          <h3 className="font-heading text-amircani-primary text-2xl md:text-3xl font-normal mb-6">
+          <h3 className="font-heading text-amircani-primary text-2xl md:text-3xl font-bold mb-6">
             Call Us for Personal Injury Help
           </h3>
 

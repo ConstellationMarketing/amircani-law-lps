@@ -23,7 +23,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
   return (
     <section className="w-full bg-white pt-12 md:pt-20 pb-6 md:pb-8">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal text-center mb-3">
+        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold text-center mb-3">
           Why Choose Us?
         </h2>
         <p className="font-body text-gray-600 text-center text-lg mb-12">
@@ -41,7 +41,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
                 <div className="w-16 h-16 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
                   <IconComponent className="w-8 h-8 text-amircani-primary" />
                 </div>
-                <h3 className="font-heading text-amircani-primary text-xl font-medium mb-3">
+                <h3 className="font-heading text-amircani-primary text-xl font-bold mb-3">
                   {feature.title}
                 </h3>
                 <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">

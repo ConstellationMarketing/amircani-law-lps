@@ -4,7 +4,7 @@ export const CallToActionMainSection = (): JSX.Element => {
   return (
     <section className="w-full bg-amircani-primary py-12 md:py-20">
       <div className="max-w-4xl mx-auto px-4 text-center">
-        <h2 className="font-heading text-white text-3xl md:text-4xl font-normal mb-6">
+        <h2 className="font-heading text-white text-3xl md:text-4xl font-bold mb-6">
           Ready to Discuss Your Case?
         </h2>
         

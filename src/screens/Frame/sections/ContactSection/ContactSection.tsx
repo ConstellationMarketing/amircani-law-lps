@@ -6,7 +6,7 @@ export const ContactSection = (): JSX.Element => {
     <section id="contact" className="w-full bg-amircani-light py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal mb-4">
+          <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-bold mb-4">
             Contact Amircani Law
           </h2>
           <p className="font-body text-amircani-primary text-lg">
@@ -16,7 +16,7 @@ export const ContactSection = (): JSX.Element => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="font-heading text-amircani-primary text-2xl font-normal mb-6">
+            <h3 className="font-heading text-amircani-primary text-2xl font-bold mb-6">
               Request Your Free Consultation
             </h3>
             <form
@@ -77,7 +77,7 @@ export const ContactSection = (): JSX.Element => {
 
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-amircani-primary text-2xl font-normal mb-6">
+              <h3 className="font-heading text-amircani-primary text-2xl font-bold mb-6">
                 Contact Information
               </h3>
               <div className="space-y-4">
@@ -100,7 +100,7 @@ export const ContactSection = (): JSX.Element => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-amircani-primary text-2xl font-normal mb-6">
+              <h3 className="font-heading text-amircani-primary text-2xl font-bold mb-6">
                 Office Location
               </h3>
               <div className="flex items-start">
