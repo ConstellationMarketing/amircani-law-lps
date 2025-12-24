@@ -41,27 +41,54 @@ export const WhyUsSection = (): JSX.Element => {
           When you choose Amircani Law, you get dedicated personal injury representation focused on results
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {serviceHighlights.map((service, index) => {
-            const IconComponent = service.icon;
-            return (
-              <Card key={index} className="bg-amircani-light border border-amircani-secondary/20 shadow-sm hover:shadow-md transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex flex-col items-center text-center">
-                    <div className="w-14 h-14 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
-                      <IconComponent className="w-7 h-7 text-amircani-primary" />
+        <div className="flex flex-col gap-6">
+          {/* First row - 3 boxes */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {serviceHighlights.slice(0, 3).map((service, index) => {
+              const IconComponent = service.icon;
+              return (
+                <Card key={index} className="bg-amircani-light border border-amircani-secondary/20 shadow-sm hover:shadow-md transition-shadow">
+                  <CardContent className="p-6">
+                    <div className="flex flex-col items-center text-center">
+                      <div className="w-14 h-14 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
+                        <IconComponent className="w-7 h-7 text-amircani-primary" />
+                      </div>
+                      <h3 className="font-heading text-amircani-primary text-lg font-bold mb-3">
+                        {service.title}
+                      </h3>
+                      <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">
+                        {service.description}
+                      </p>
                     </div>
-                    <h3 className="font-heading text-amircani-primary text-lg font-bold mb-3">
-                      {service.title}
-                    </h3>
-                    <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">
-                      {service.description}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            );
-          })}
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+
+          {/* Second row - 2 boxes centered */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto w-full">
+            {serviceHighlights.slice(3, 5).map((service, index) => {
+              const IconComponent = service.icon;
+              return (
+                <Card key={index + 3} className="bg-amircani-light border border-amircani-secondary/20 shadow-sm hover:shadow-md transition-shadow">
+                  <CardContent className="p-6">
+                    <div className="flex flex-col items-center text-center">
+                      <div className="w-14 h-14 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
+                        <IconComponent className="w-7 h-7 text-amircani-primary" />
+                      </div>
+                      <h3 className="font-heading text-amircani-primary text-lg font-bold mb-3">
+                        {service.title}
+                      </h3>
+                      <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">
+                        {service.description}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
