@@ -38,6 +38,49 @@ export const ContactSection = (): JSX.Element => {
                 </label>
               </div>
 
+              {/* Hidden tracking fields */}
+              <input type="hidden" id="utm_source" name="utm_source" />
+              <input type="hidden" id="utm_medium" name="utm_medium" />
+              <input type="hidden" id="utm_campaign" name="utm_campaign" />
+              <input type="hidden" id="utm_term" name="utm_term" />
+              <input type="hidden" id="utm_content" name="utm_content" />
+              <input type="hidden" id="gclid" name="gclid" />
+              <input type="hidden" id="fbclid" name="fbclid" />
+              <input type="hidden" id="msclkid" name="msclkid" />
+              <input type="hidden" id="first_utm_source" name="first_utm_source" />
+              <input type="hidden" id="first_utm_medium" name="first_utm_medium" />
+              <input type="hidden" id="first_utm_campaign" name="first_utm_campaign" />
+              <input type="hidden" id="first_utm_term" name="first_utm_term" />
+              <input type="hidden" id="first_utm_content" name="first_utm_content" />
+              <input type="hidden" id="first_referrer" name="first_referrer" />
+              <input type="hidden" id="first_landing_page" name="first_landing_page" />
+              <input type="hidden" id="first_visit_timestamp" name="first_visit_timestamp" />
+              <input type="hidden" id="referrer" name="referrer" />
+              <input type="hidden" id="referrer_domain" name="referrer_domain" />
+              <input type="hidden" id="search_engine" name="search_engine" />
+              <input type="hidden" id="social_platform" name="social_platform" />
+              <input type="hidden" id="traffic_source_category" name="traffic_source_category" />
+              <input type="hidden" id="is_paid_traffic" name="is_paid_traffic" />
+              <input type="hidden" id="is_returning_visitor" name="is_returning_visitor" />
+              <input type="hidden" id="lead_source" name="lead_source" />
+              <input type="hidden" id="lead_medium" name="lead_medium" />
+              <input type="hidden" id="lead_campaign" name="lead_campaign" />
+              <input type="hidden" id="lead_keyword" name="lead_keyword" />
+              <input type="hidden" id="lead_content" name="lead_content" />
+              <input type="hidden" id="landing_url" name="landing_url" />
+              <input type="hidden" id="landing_page" name="landing_page" />
+              <input type="hidden" id="current_page_url" name="current_page_url" />
+              <input type="hidden" id="session_id" name="session_id" />
+              <input type="hidden" id="session_count" name="session_count" />
+              <input type="hidden" id="pages_visited" name="pages_visited" />
+              <input type="hidden" id="time_on_page" name="time_on_page" />
+              <input type="hidden" id="user_agent" name="user_agent" />
+              <input type="hidden" id="device_type" name="device_type" />
+              <input type="hidden" id="browser" name="browser" />
+              <input type="hidden" id="os" name="os" />
+              <input type="hidden" id="screen_resolution" name="screen_resolution" />
+              <input type="hidden" id="timestamp" name="timestamp" />
+
               <div>
                 <input
                   type="text"
