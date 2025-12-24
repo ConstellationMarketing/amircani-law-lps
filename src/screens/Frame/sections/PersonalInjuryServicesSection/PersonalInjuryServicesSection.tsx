@@ -14,28 +14,38 @@ export const PersonalInjuryServicesSection = (): JSX.Element => {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto mb-16">
-          <Accordion type="single">
-            <AccordionItem value="car-accidents" title="Car Accidents">
-              Needing an Atlanta-based personal injury attorney due to the carelessness, recklessness, or drunkenness of another driver is hugely frustrating. You didn't do anything wrong but now you're saddled with medical bills, forced to find a new car, and may have missed work due to your injuries.
-            </AccordionItem>
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Left Column - Vehicle Accidents */}
+            <div>
+              <Accordion type="single">
+                <AccordionItem value="car-accidents" title="Car Accidents">
+                  Needing an Atlanta-based personal injury attorney due to the carelessness, recklessness, or drunkenness of another driver is hugely frustrating. You didn't do anything wrong but now you're saddled with medical bills, forced to find a new car, and may have missed work due to your injuries.
+                </AccordionItem>
 
-            <AccordionItem value="truck-accidents" title="Truck Accidents">
-              Commercial truck accidents in the Atlanta metro area that result in needing to file a personal injury claim are incredibly dangerous and often result in injuries for the passengers in the smaller vehicle. Trucks are heavy vehicles, which is why passenger cars tend to suffer severe damage when involved in accidents with commercial trucks.
-            </AccordionItem>
+                <AccordionItem value="truck-accidents" title="Truck Accidents">
+                  Commercial truck accidents in the Atlanta metro area that result in needing to file a personal injury claim are incredibly dangerous and often result in injuries for the passengers in the smaller vehicle. Trucks are heavy vehicles, which is why passenger cars tend to suffer severe damage when involved in accidents with commercial trucks.
+                </AccordionItem>
 
-            <AccordionItem value="motorcycle-accidents" title="Motorcycle Accidents">
-              Being a biker is a mixed bag – it's fun, efficient, and affordable, but it can also be more dangerous than other modes of vehicular transportation. Motorcyclists are the most vulnerable motorists on the roads of Atlanta, GA due to the inherent lack of safety features present in most cars and trucks.
-            </AccordionItem>
+                <AccordionItem value="motorcycle-accidents" title="Motorcycle Accidents">
+                  Being a biker is a mixed bag – it's fun, efficient, and affordable, but it can also be more dangerous than other modes of vehicular transportation. Motorcyclists are the most vulnerable motorists on the roads of Atlanta, GA due to the inherent lack of safety features present in most cars and trucks.
+                </AccordionItem>
+              </Accordion>
+            </div>
 
-            <AccordionItem value="wrongful-death" title="Wrongful Death">
-              Losing a loved one is always painful. Knowing their death was preventable if people had not acted negligently makes the death even harder to bear. Wrongful death claims are similar to personal injury claims but with some additional potential damages.
-            </AccordionItem>
+            {/* Right Column - Other Services */}
+            <div>
+              <Accordion type="single">
+                <AccordionItem value="wrongful-death" title="Wrongful Death">
+                  Losing a loved one is always painful. Knowing their death was preventable if people had not acted negligently makes the death even harder to bear. Wrongful death claims are similar to personal injury claims but with some additional potential damages.
+                </AccordionItem>
 
-            <AccordionItem value="crash-report-retrieval" title="Crash Report Retrieval Service">
-              At Amircani Law, we understand how crucial timely access to accurate crash reports can be after an accident. Our Crash Report Retrieval Service is designed to simplify the process for individuals involved in motor vehicle accidents in Georgia. Whether you need a copy for insurance claims, legal proceedings, or personal records, we take the hassle out of navigating law enforcement systems and waiting in long queues. Our team will handle the entire process—locating the correct report, verifying the details, and delivering it to you quickly and securely. This service not only saves you time but also ensures that you have the critical documentation needed to support your case and move forward with confidence.
-            </AccordionItem>
-          </Accordion>
+                <AccordionItem value="crash-report-retrieval" title="Crash Report Retrieval Service">
+                  At Amircani Law, we understand how crucial timely access to accurate crash reports can be after an accident. Our Crash Report Retrieval Service is designed to simplify the process for individuals involved in motor vehicle accidents in Georgia. Whether you need a copy for insurance claims, legal proceedings, or personal records, we take the hassle out of navigating law enforcement systems and waiting in long queues. Our team will handle the entire process—locating the correct report, verifying the details, and delivering it to you quickly and securely. This service not only saves you time but also ensures that you have the critical documentation needed to support your case and move forward with confidence.
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </div>
         </div>
 
         {/* CTA Section */}
