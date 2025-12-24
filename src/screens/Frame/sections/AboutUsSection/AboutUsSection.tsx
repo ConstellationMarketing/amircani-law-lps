@@ -20,8 +20,8 @@ export const AboutUsSection = (): JSX.Element => {
         <div className="flex flex-col items-center">
           <div className="w-full mb-12 max-w-4xl">
             <img
-              src="/amircani-team.png"
-              alt="Amircani Law team"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F83dcafa5714d4cf089a38271c39163e1?format=webp&width=800"
+              alt="Amircani Law office"
               className="w-full h-auto rounded-lg"
             />
           </div>
