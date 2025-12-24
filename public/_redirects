@@ -1,0 +1,3 @@
+# Netlify redirects file
+/personal-injury-atlanta/ /personal-injury-atlanta.html 200
+/personal-injury-atlanta /personal-injury-atlanta.html 200
