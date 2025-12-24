@@ -1,0 +1,29 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/personal-injury-atlanta"
+  to = "/personal-injury-atlanta.html"
+  status = 200
+
+[[redirects]]
+  from = "/personal-injury-atlanta/"
+  to = "/personal-injury-atlanta.html"
+  status = 200
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200
+
+[[redirects]]
+  from = "/thank-you/"
+  to = "/thank-you.html"
+  status = 200
+
+# Catch-all redirect for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
