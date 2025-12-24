@@ -8,14 +8,11 @@ import {
 } from "../../../../components/ui/carousel";
 
 export const BadgesSection = (): JSX.Element => {
-  // Placeholder badges - replace with actual Amircani Law award images
   const badges = [
-    { src: "/avvo-badge.jpg", alt: "Avvo Rating" },
-    { src: "/super-lawyers-badge.jpg", alt: "Super Lawyers" },
-    { src: "/best-lawyers-badge.jpg", alt: "Best Lawyers" },
-    { src: "/top-attorneys-badge.jpg", alt: "Top Attorneys" },
-    { src: "/justia-badge.jpg", alt: "Justia" },
-    { src: "/martindale-badge.jpg", alt: "Martindale-Hubbell" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F01d1961d0c5846e696850ed0fc3b5480?format=webp&width=800", alt: "State Bar of Georgia" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F5ab73d24e5654ccc8ce10efe99326151?format=webp&width=800", alt: "Georgia Association for Women Lawyers" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8eaf28b2a4a64e40af50af93c9c08b6a?format=webp&width=800", alt: "Georgia Trial Lawyers Association" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F40ec4dc3789c440b962a6f6907fb8958?format=webp&width=800", alt: "Atlanta Bar Association" },
   ];
 
   return (
