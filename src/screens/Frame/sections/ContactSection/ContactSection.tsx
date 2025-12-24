@@ -25,6 +25,7 @@ export const ContactSection = (): JSX.Element => {
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
+              action="/thank-you.html"
               className="space-y-4"
             >
               {/* Hidden field for Netlify form detection */}
