@@ -1,11 +1,4 @@
 import React from "react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "../../../../components/ui/carousel";
 
 export const BadgesSection = (): JSX.Element => {
   const badges = [
@@ -13,39 +6,24 @@ export const BadgesSection = (): JSX.Element => {
     { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F5ab73d24e5654ccc8ce10efe99326151?format=webp&width=800", alt: "Georgia Association for Women Lawyers" },
     { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8eaf28b2a4a64e40af50af93c9c08b6a?format=webp&width=800", alt: "Georgia Trial Lawyers Association" },
     { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F40ec4dc3789c440b962a6f6907fb8958?format=webp&width=800", alt: "Atlanta Bar Association" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F9653c960e5714cf995c6c2c8fe6a6b73?format=webp&width=800", alt: "Super Lawyers 2025" },
   ];
 
   return (
     <section className="w-full bg-white py-6 md:py-10">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="relative max-w-6xl mx-auto px-12">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent className="-ml-2 md:-ml-4">
-              {badges.map((badge, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 basis-1/2 md:basis-1/3 lg:basis-1/5">
-                  <div className="p-2 flex items-center justify-center h-32">
-                    <img
-                      src={badge.src}
-                      alt={badge.alt}
-                      className="w-full h-full object-contain"
-                      onError={(e) => {
-                        // Fallback for missing images
-                        (e.target as HTMLImageElement).style.display = 'none';
-                      }}
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="left-0 bg-amircani-secondary text-amircani-primary hover:bg-amircani-secondary/80 border-amircani-secondary" />
-            <CarouselNext className="right-0 bg-amircani-secondary text-amircani-primary hover:bg-amircani-secondary/80 border-amircani-secondary" />
-          </Carousel>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
+            {badges.map((badge, index) => (
+              <div key={index} className="flex items-center justify-center p-4">
+                <img
+                  src={badge.src}
+                  alt={badge.alt}
+                  className="w-full h-auto max-h-32 object-contain"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
