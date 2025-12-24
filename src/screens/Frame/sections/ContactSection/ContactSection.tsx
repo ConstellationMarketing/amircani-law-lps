@@ -127,7 +127,7 @@ export const ContactSection = (): JSX.Element => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-amircani-primary text-2xl font-normal mb-4">
+              <h3 className="font-heading text-amircani-primary text-2xl font-bold mb-4">
                 What To Expect
               </h3>
               <p className="font-body text-gray-700 text-sm leading-relaxed">

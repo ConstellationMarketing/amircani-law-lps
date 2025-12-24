@@ -15,7 +15,7 @@ export const HeroSection = (): JSX.Element => {
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="font-body text-amircani-secondary text-xs uppercase tracking-wider">Call 24/7</p>
+            <p className="font-body text-amircani-secondary text-xs uppercase tracking-wider font-bold">Call 24/7</p>
             <a
               href="tel:6782807389"
               className="font-body text-amircani-primary hover:text-amircani-secondary transition-colors text-lg font-semibold"
