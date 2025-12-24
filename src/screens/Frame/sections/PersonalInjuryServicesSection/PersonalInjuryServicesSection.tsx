@@ -62,12 +62,12 @@ export const PersonalInjuryServicesSection = (): JSX.Element => {
           </a>
 
           <div className="flex flex-col items-center gap-4">
-            <a
-              href="tel:6782807389"
-              className="bg-amircani-primary hover:bg-amircani-primary/90 text-white font-inter font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block"
+            <button
+              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-amircani-primary hover:bg-amircani-primary/90 text-white font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
             >
               Free consultations available
-            </a>
+            </button>
 
             <p className="font-body text-amircani-primary text-base">
               Speak directly with an experienced Atlanta personal injury attorney today.
