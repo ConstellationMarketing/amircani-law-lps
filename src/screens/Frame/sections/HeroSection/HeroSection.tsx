@@ -4,13 +4,13 @@ export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[500px] bg-amircani-primary">
       {/* Navigation Bar */}
-      <div className="relative w-full bg-amircani-primary border-b border-amircani-secondary/20">
+      <div className="relative w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="/amircani-law-logo.png"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F9a655bd1ec654702bd1d3e23ce761b09?format=webp&width=800"
               alt="Amircani Law"
-              className="h-10 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
           </div>
 
@@ -18,7 +18,7 @@ export const HeroSection = (): JSX.Element => {
             <p className="font-body text-amircani-secondary text-xs uppercase tracking-wider">Call 24/7</p>
             <a
               href="tel:6782807389"
-              className="font-body text-white hover:text-amircani-secondary transition-colors text-lg font-semibold"
+              className="font-body text-amircani-primary hover:text-amircani-secondary transition-colors text-lg font-semibold"
             >
               (678) 280-7389
             </a>
