@@ -21,9 +21,3 @@
   from = "/thank-you/"
   to = "/thank-you.html"
   status = 200
-
-# Catch-all redirect for SPA routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
