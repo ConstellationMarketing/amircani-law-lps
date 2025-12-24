@@ -11,7 +11,7 @@ export const AttorneySection = (): JSX.Element => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           <div className="w-full h-full min-h-[400px]">
             <img
-              src="/maha-amircani-attorney.jpg"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Ffe7682b078bc4f5385aa0373ce9a6151?format=webp&width=800"
               alt="Maha Amircani, Attorney"
               className="w-full h-full object-cover rounded-lg"
             />
