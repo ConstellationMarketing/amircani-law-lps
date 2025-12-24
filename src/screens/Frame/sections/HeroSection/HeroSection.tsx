@@ -42,7 +42,7 @@ export const HeroSection = (): JSX.Element => {
 
         <a
           href="tel:6782807389"
-          className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+          className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
         >
           CALL NOW - (678) 280-7389
         </a>
