@@ -8,18 +8,14 @@ import {
 } from "../../../../components/ui/carousel";
 
 export const BadgesSection = (): JSX.Element => {
+  // Placeholder badges - replace with actual Amircani Law award images
   const badges = [
-    { src: "/avvo-2022-badge.jpg", alt: "Avvo Clients' Choice Award 2022" },
-    { src: "/avvo-2020-badge.jpg", alt: "Avvo Clients' Choice Award 2020" },
-    { src: "/avvo-2019-badge.jpg", alt: "Avvo Clients' Choice Award 2019" },
-    { src: "/rising-star-badge.jpg", alt: "Super Lawyers Rising Stars" },
-    { src: "/avvo-c-badge.jpg", alt: "Avvo Reviews" },
-    { src: "/avvo-10-badge.jpg", alt: "Avvo Rating 10.0 Top Attorney" },
-    { src: "/bog-badge.jpg", alt: "Best of Georgia 2022" },
-    { src: "/justia-badge.jpg", alt: "Justia 10.0 Lawyer Rating" },
-    { src: "/top-40-badge.jpg", alt: "Top 40 Under 40 Trial Lawyers" },
-    { src: "/ncdd-badge.jpg", alt: "National College for DUI Defense" },
-    { src: "/gacdl-badge.jpg", alt: "Georgia Association of Criminal Defense Lawyers Member 2020" },
+    { src: "/avvo-badge.jpg", alt: "Avvo Rating" },
+    { src: "/super-lawyers-badge.jpg", alt: "Super Lawyers" },
+    { src: "/best-lawyers-badge.jpg", alt: "Best Lawyers" },
+    { src: "/top-attorneys-badge.jpg", alt: "Top Attorneys" },
+    { src: "/justia-badge.jpg", alt: "Justia" },
+    { src: "/martindale-badge.jpg", alt: "Martindale-Hubbell" },
   ];
 
   return (
@@ -41,13 +37,17 @@ export const BadgesSection = (): JSX.Element => {
                       src={badge.src}
                       alt={badge.alt}
                       className="w-full h-full object-contain"
+                      onError={(e) => {
+                        // Fallback for missing images
+                        (e.target as HTMLImageElement).style.display = 'none';
+                      }}
                     />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
-            <CarouselNext className="right-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
+            <CarouselPrevious className="left-0 bg-amircani-secondary text-amircani-primary hover:bg-amircani-secondary/80 border-amircani-secondary" />
+            <CarouselNext className="right-0 bg-amircani-secondary text-amircani-primary hover:bg-amircani-secondary/80 border-amircani-secondary" />
           </Carousel>
         </div>
       </div>
