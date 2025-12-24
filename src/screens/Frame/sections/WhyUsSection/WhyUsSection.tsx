@@ -1,61 +1,63 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { CheckCircle, FileText, Phone, Scale, Shield } from "lucide-react";
 
 export const WhyUsSection = (): JSX.Element => {
-  const caseResults = [
+  const serviceHighlights = [
     {
-      charge: "Motorcycle DUI",
-      caseNumber: "STATE V. N.B.",
-      result: "NOT GUILTY",
-      description: "Defendant was pulled over for speeding on his motorcycle and charged with DUI. We demanded a bench trial and the Court found him not guilty."
+      icon: Scale,
+      title: "Professional Representation",
+      description: "Experienced personal injury attorneys dedicated to protecting your rights and securing maximum compensation for your injuries."
     },
     {
-      charge: "DUI to Reckless Driving",
-      caseNumber: "STATE V. R.S.",
-      result: "REDUCED",
-      description: "Defendant was charged with DUI and had his driver's license suspended following a single-vehicle accident. We negotiated a reduction to reckless driving and reinstatement of his license."
+      icon: Shield,
+      title: "Comprehensive Case Handling",
+      description: "We handle all aspects of your case, from investigation to negotiation to trial preparation, ensuring no detail is overlooked."
     },
     {
-      charge: "Marijuana DUI",
-      caseNumber: "STATE V. Z.P.",
-      result: "DISMISSED",
-      description: "Defendant was charged with DUI after marijuana was found in his vehicle. We successfully argued that there was no evidence of intoxication and resolved his case was a dismissal of the DUI and a fine only for the marijuana."
+      icon: Phone,
+      title: "24/7 Availability",
+      description: "Our team is always accessible when you need us. We provide responsive communication and keep you informed throughout your case."
+    },
+    {
+      icon: FileText,
+      title: "No Fee Unless We Win",
+      description: "We work on a contingency fee basis - you don't pay attorney fees unless we successfully recover compensation for you."
+    },
+    {
+      icon: CheckCircle,
+      title: "Proven Track Record",
+      description: "Our attorneys have successfully recovered millions for injury victims throughout Atlanta and Georgia."
     }
   ];
 
   return (
     <section className="w-full py-12 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
-          Criminal Case Results
+        <h2 className="font-heading text-amircani-primary text-3xl md:text-4xl font-normal text-center mb-4">
+          Service Highlights
         </h2>
+        <p className="font-body text-amircani-primary/70 text-center text-lg mb-12 max-w-3xl mx-auto">
+          When you choose Amircani Law, you get dedicated personal injury representation focused on results
+        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {caseResults.map((caseItem, index) => {
-            const getBadgeColor = (result: string) => {
-              if (result === "NOT GUILTY") return "bg-green-600";
-              if (result === "REDUCED") return "bg-green-600";
-              if (result === "DISMISSED") return "bg-green-600";
-              return "bg-green-600";
-            };
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {serviceHighlights.map((service, index) => {
+            const IconComponent = service.icon;
             return (
-              <Card key={index} className="bg-gray-50 border-none shadow-md">
+              <Card key={index} className="bg-amircani-light border border-amircani-secondary/20 shadow-sm hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <div className="mb-4">
-                    <h3 className="font-heading text-wosnik-dark text-xl font-normal mb-2">
-                      {caseItem.charge}
-                    </h3>
-                    <p className="font-body text-gray-600 text-sm italic mb-2">
-                      {caseItem.caseNumber}
-                    </p>
-                    <div className={`inline-block ${getBadgeColor(caseItem.result)} text-white font-body font-semibold text-sm px-4 py-1 rounded uppercase`}>
-                      {caseItem.result}
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-14 h-14 bg-amircani-secondary rounded-full flex items-center justify-center mb-4">
+                      <IconComponent className="w-7 h-7 text-amircani-primary" />
                     </div>
+                    <h3 className="font-heading text-amircani-primary text-lg font-medium mb-3">
+                      {service.title}
+                    </h3>
+                    <p className="font-body text-amircani-primary/80 text-sm leading-relaxed">
+                      {service.description}
+                    </p>
                   </div>
-                  <p className="font-body text-gray-700 text-sm leading-relaxed">
-                    {caseItem.description}
-                  </p>
                 </CardContent>
               </Card>
             );
