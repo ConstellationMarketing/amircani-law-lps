@@ -4,7 +4,7 @@ import { ContactSection } from "./sections/ContactSection";
 import { FooterSection } from "./sections/FooterSection";
 import { HeroSection } from "./sections/HeroSection";
 import { ClientTestimonialsSection } from "./sections/ClientTestimonialsSection";
-import { CriminalDefenseServicesSection } from "./sections/CriminalDefenseServicesSection";
+import { PersonalInjuryServicesSection } from "./sections/PersonalInjuryServicesSection";
 import { WhyUsSection } from "./sections/WhyUsSection";
 import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
@@ -13,11 +13,11 @@ import { BadgesSection } from "./sections/BadgesSection";
 
 export const Frame = (): JSX.Element => {
   return (
-    <div className="w-full bg-wosnik-light">
+    <div className="w-full bg-amircani-light">
       <div className="flex flex-col">
         <HeroSection />
         <BadgesSection />
-        <CriminalDefenseServicesSection />
+        <PersonalInjuryServicesSection />
         <WhyChooseUsSection />
         <AboutUsSection />
         <AttorneySection />
