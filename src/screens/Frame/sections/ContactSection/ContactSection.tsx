@@ -143,14 +143,6 @@ export const ContactSection = (): JSX.Element => {
                     <p className="font-body text-gray-600 text-sm">Available 24/7</p>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <Mail className="w-5 h-5 text-amircani-secondary mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <a href="mailto:maha@amircanilaw.com" className="font-body text-amircani-primary font-medium hover:text-amircani-secondary">
-                      maha@amircanilaw.com
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
