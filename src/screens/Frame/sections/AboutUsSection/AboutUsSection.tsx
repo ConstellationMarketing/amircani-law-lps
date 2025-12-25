@@ -18,12 +18,30 @@ export const AboutUsSection = (): JSX.Element => {
         </h2>
 
         <div className="flex flex-col items-center">
-          <div className="w-full mb-12 max-w-4xl">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8905bc97d8294c86beb582ad958d8818?format=webp&width=800"
-              alt="Atlanta Made - Amircani Law"
-              className="w-full h-auto rounded-lg"
-            />
+          <div className="w-full mb-12 max-w-5xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="relative overflow-hidden rounded-lg shadow-md">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4344c94d0ea04565a6370ddcafbd8985?format=webp&width=800"
+                  alt="Alanna Dae - Amircani Law Team"
+                  className="w-full h-full object-cover aspect-[3/4]"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-md">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F71a11081020c40d799e4722c0b02c277?format=webp&width=800"
+                  alt="Maribel Posada - Amircani Law Team"
+                  className="w-full h-full object-cover aspect-[3/4]"
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-lg shadow-md">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F34a9ad696f0a417ca2d3ea376da60ad8?format=webp&width=800"
+                  alt="Aslam Pohel - Amircani Law Team"
+                  className="w-full h-full object-cover aspect-[3/4]"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
