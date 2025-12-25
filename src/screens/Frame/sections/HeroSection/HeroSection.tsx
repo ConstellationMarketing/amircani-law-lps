@@ -2,7 +2,10 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-amircani-primary overflow-hidden">
+    <section className="relative w-full min-h-[500px] bg-amircani-primary overflow-hidden" style={{backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fe3fd1762a7374f7c91955902025a26ba?format=webp&width=800)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      {/* Background Overlay for Text Readability */}
+      <div className="absolute inset-0 bg-amircani-primary/40 pointer-events-none"></div>
+
       {/* Navigation Bar */}
       <div className="relative w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
