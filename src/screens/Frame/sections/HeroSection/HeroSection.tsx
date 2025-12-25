@@ -40,7 +40,7 @@ export const HeroSection = (): JSX.Element => {
               </h1>
 
               <h2 className="font-body text-amircani-secondary text-xl md:text-2xl font-semibold mb-6">
-                Atlanta Personal Injury
+                ATLANTA PERSONAL INJURY
               </h2>
 
               <p className="font-body text-white text-base leading-relaxed mb-8">
