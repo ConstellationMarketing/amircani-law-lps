@@ -5,12 +5,12 @@ export const HeroSection = (): JSX.Element => {
     <section className="relative w-full min-h-[500px] bg-amircani-primary">
       {/* Navigation Bar */}
       <div className="relative w-full bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
           <div className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F9a655bd1ec654702bd1d3e23ce761b09?format=webp&width=800"
               alt="Amircani Law"
-              className="h-12 w-auto object-contain"
+              className="h-16 w-auto object-contain"
             />
           </div>
 
