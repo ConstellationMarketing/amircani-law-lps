@@ -160,15 +160,6 @@ export const ContactSection = (): JSX.Element => {
                 </div>
               </div>
             </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-amircani-primary text-2xl font-bold mb-4">
-                What To Expect
-              </h3>
-              <p className="font-body text-gray-700 text-sm leading-relaxed">
-                When you contact Amircani Law, you'll speak directly with an experienced personal injury attorney who will listen to your story, answer your questions, and provide honest guidance about your case. We offer free consultations and work on a contingency fee basis—you don't pay unless we win.
-              </p>
-            </div>
           </div>
         </div>
 
