@@ -41,7 +41,7 @@ export const ThankYou = (): JSX.Element => {
 
           <a
             href="/"
-            className="inline-block bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px]"
+            className="inline-block bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px]"
           >
             Return to Homepage
           </a>

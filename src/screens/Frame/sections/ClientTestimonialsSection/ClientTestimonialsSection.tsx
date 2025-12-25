@@ -83,7 +83,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
             href="https://www.google.com/search?q=amircani+law+atlanta"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
+            className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
           >
             Read More Reviews on Google
           </a>

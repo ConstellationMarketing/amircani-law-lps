@@ -64,7 +64,7 @@ export const PersonalInjuryServicesSection = (): JSX.Element => {
           <div className="flex flex-col items-center gap-4">
             <button
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-amircani-primary hover:bg-amircani-primary/90 text-white font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
+              className="bg-amircani-primary hover:bg-amircani-primary/90 text-white font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
             >
               Free consultations available
             </button>
