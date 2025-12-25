@@ -27,25 +27,39 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-          Your Trusted Advocates: Maximizing Justice, Minimizing Stress
-        </h1>
+      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          {/* Left Column - Text and Button */}
+          <div className="text-left">
+            <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+              Your Trusted Advocates: Maximizing Justice, Minimizing Stress
+            </h1>
 
-        <h2 className="font-body text-amircani-secondary text-xl md:text-2xl font-semibold mb-6">
-          Atlanta Personal Injury
-        </h2>
+            <h2 className="font-body text-amircani-secondary text-xl md:text-2xl font-semibold mb-6">
+              Atlanta Personal Injury
+            </h2>
 
-        <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          The accident attorneys at Amircani Law in Atlanta, GA are committed to fighting for the compensation people injured by negligent parties deserve.
-        </p>
+            <p className="font-body text-white text-base leading-relaxed mb-8">
+              The accident attorneys at Amircani Law in Atlanta, GA are committed to fighting for the compensation people injured by negligent parties deserve.
+            </p>
 
-        <a
-          href="tel:6782807389"
-          className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
-        >
-          CALL NOW - (678) 280-7389
-        </a>
+            <a
+              href="#contact"
+              className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
+            >
+              FREE CASE REVIEW
+            </a>
+          </div>
+
+          {/* Right Column - Attorney Image */}
+          <div className="flex justify-center lg:justify-end">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8d9da819288d44bb8810df91c75f6e9a?format=webp&width=800"
+              alt="Maha Amircani - Attorney"
+              className="w-full max-w-md h-auto object-contain"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
