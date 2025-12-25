@@ -14,15 +14,15 @@ export const HeroSection = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex flex-col items-end">
+          <a
+            href="tel:6782807389"
+            className="bg-amircani-primary hover:bg-amircani-primary/90 px-6 py-3 rounded-lg transition-all duration-150 flex flex-col items-center"
+          >
             <p className="font-body text-amircani-secondary text-xs uppercase tracking-wider font-bold">Call 24/7</p>
-            <a
-              href="tel:6782807389"
-              className="font-body text-amircani-primary hover:text-amircani-secondary transition-colors text-lg font-semibold"
-            >
+            <span className="font-body text-white text-lg font-semibold">
               (678) 280-7389
-            </a>
-          </div>
+            </span>
+          </a>
         </div>
       </div>
 
