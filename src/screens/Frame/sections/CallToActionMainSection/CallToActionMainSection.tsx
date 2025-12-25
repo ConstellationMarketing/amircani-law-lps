@@ -15,14 +15,14 @@ export const CallToActionMainSection = (): JSX.Element => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="tel:6782807389"
-            className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center w-full sm:w-auto"
+            className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center w-full sm:w-auto"
           >
             Call Now - (678) 280-7389
           </a>
           
           <button
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white hover:bg-white/90 text-amircani-primary font-inter font-medium text-sm px-6 md:px-8 py-3 rounded-full border border-white transition-all duration-150 uppercase tracking-[2px] inline-block text-center w-full sm:w-auto"
+            className="bg-white hover:bg-white/90 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-white transition-all duration-150 uppercase tracking-[2px] inline-block text-center w-full sm:w-auto"
           >
             Request Free Consultation
           </button>
