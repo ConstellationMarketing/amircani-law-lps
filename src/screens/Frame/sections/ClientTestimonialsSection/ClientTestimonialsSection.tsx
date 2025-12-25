@@ -3,34 +3,34 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import { Star } from "lucide-react";
 
 export const ClientTestimonialsSection = (): JSX.Element => {
-  // Placeholder testimonials - replace with actual Amircani Law client reviews
+  // Real Google reviews from Amircani Law clients
   const testimonials = [
     {
-      name: "Client Review",
+      name: "Zamyah S.",
       rating: 5,
       timeAgo: "Recent",
-      text: "Maha and her team at Amircani Law provided exceptional representation for my car accident case. She fought tirelessly to get me the compensation I deserved and kept me informed every step of the way. I highly recommend Amircani Law for anyone needing a personal injury attorney in Atlanta.",
+      text: "I loveeeeeeeee Amircani law !! Maha is amazing . Jasmine Seals is the absolute best as well. Jasmine was so patient with me, she answered everything I asked. Amircani law made me feel like family . I'd recommend them one thousand times over!!! Thank you all for being great !!!!",
       source: "Google"
     },
     {
-      name: "Client Review",
+      name: "Umar M.",
       rating: 5,
       timeAgo: "Recent",
-      text: "After my accident, I didn't know where to turn. Amircani Law took care of everything - dealing with the insurance companies, handling all the paperwork, and making sure I got proper medical treatment. They truly care about their clients and fight hard for justice.",
+      text: "Amircani law offices of Atlanta is the best law offices I have ever worked with I can't say enough about this awesome team of professionals they work endlessly until you are fully compensated for your loss thank God for Maribel and everyone who helped me with not just one but two car accidents they are very personable at answering my question about the car accident thank you guys",
       source: "Google"
     },
     {
-      name: "Client Review",
+      name: "Musa G.",
       rating: 5,
       timeAgo: "Recent",
-      text: "Professional, responsive, and results-driven. Maha Amircani exceeded my expectations in handling my personal injury case. She secured a settlement that covered all my medical bills and lost wages. I'm incredibly grateful for her expertise and dedication.",
+      text: "Terrific firm with a reputation to match. Their attention to detail and concern for clients is unmatched. You'd be well represented if you're fortunate enough to have Maha handle your case.",
       source: "Google"
     },
     {
-      name: "Client Review",
+      name: "Lorenzo H.",
       rating: 5,
       timeAgo: "Recent",
-      text: "I was injured in a truck accident and Amircani Law helped me navigate the complex legal process. They were always available to answer my questions and provided honest, straightforward advice. I couldn't have asked for better representation.",
+      text: "If you are looking for exceptional service, Amircani Law is the place for you. The staff is great & the attention to detail is amazing. Attorney Maha is definitely one of the best in the business & really cares about her clients. Spread the word!",
       source: "Google"
     }
   ];
