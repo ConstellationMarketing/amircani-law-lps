@@ -28,9 +28,9 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
           {/* Left Column - Text and Button */}
-          <div className="text-left">
+          <div className="text-left pb-8 lg:pb-0">
             <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Your Trusted Advocates: Maximizing Justice, Minimizing Stress
             </h1>
@@ -52,11 +52,11 @@ export const HeroSection = (): JSX.Element => {
           </div>
 
           {/* Right Column - Attorney Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end items-end h-full">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8d9da819288d44bb8810df91c75f6e9a?format=webp&width=800"
               alt="Maha Amircani - Attorney"
-              className="w-full max-w-md h-auto object-contain"
+              className="w-full max-w-md h-auto object-cover object-bottom"
             />
           </div>
         </div>
