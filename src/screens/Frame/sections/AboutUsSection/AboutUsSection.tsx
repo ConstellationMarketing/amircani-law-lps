@@ -19,27 +19,39 @@ export const AboutUsSection = (): JSX.Element => {
 
         <div className="flex flex-col items-center">
           <div className="w-full mb-12 max-w-5xl">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="relative overflow-hidden rounded-lg shadow-md">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="relative overflow-hidden rounded-lg shadow-md group">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4344c94d0ea04565a6370ddcafbd8985?format=webp&width=800"
                   alt="Alanna Dae - Amircani Law Team"
                   className="w-full h-full object-cover aspect-[3/4]"
                 />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amircani-primary via-amircani-primary/95 to-transparent p-6 pt-12">
+                  <h4 className="font-heading text-white text-xl font-bold mb-1">Alanna Dae</h4>
+                  <p className="font-body text-amircani-secondary text-sm">Paralegal/Case Manager</p>
+                </div>
               </div>
-              <div className="relative overflow-hidden rounded-lg shadow-md">
+              <div className="relative overflow-hidden rounded-lg shadow-md group">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F71a11081020c40d799e4722c0b02c277?format=webp&width=800"
                   alt="Maribel Posada - Amircani Law Team"
                   className="w-full h-full object-cover aspect-[3/4]"
                 />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amircani-primary via-amircani-primary/95 to-transparent p-6 pt-12">
+                  <h4 className="font-heading text-white text-xl font-bold mb-1">Maribel Posada</h4>
+                  <p className="font-body text-amircani-secondary text-sm">Paralegal/Case Manager</p>
+                </div>
               </div>
-              <div className="relative overflow-hidden rounded-lg shadow-md">
+              <div className="relative overflow-hidden rounded-lg shadow-md group">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F34a9ad696f0a417ca2d3ea376da60ad8?format=webp&width=800"
-                  alt="Aslam Pohel - Amircani Law Team"
+                  alt="Aslam Pohlel - Amircani Law Team"
                   className="w-full h-full object-cover aspect-[3/4]"
                 />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amircani-primary via-amircani-primary/95 to-transparent p-6 pt-12">
+                  <h4 className="font-heading text-white text-xl font-bold mb-1">Aslam Pohlel</h4>
+                  <p className="font-body text-amircani-secondary text-sm">Property Damage Paralegal</p>
+                </div>
               </div>
             </div>
           </div>
