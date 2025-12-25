@@ -2,7 +2,7 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-amircani-primary">
+    <section className="relative w-full min-h-[500px] bg-amircani-primary overflow-hidden">
       {/* Navigation Bar */}
       <div className="relative w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
@@ -27,37 +27,39 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
-          {/* Left Column - Text and Button */}
-          <div className="text-left pb-8 lg:pb-0">
-            <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
-              Your Trusted Advocates: Maximizing Justice, Minimizing Stress
-            </h1>
+      <div className="relative w-full h-full">
+        <div className="max-w-7xl mx-auto px-4 h-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
+            {/* Left Column - Text and Button */}
+            <div className="text-left py-16 md:py-24 flex flex-col justify-center">
+              <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+                Your Trusted Advocates: Maximizing Justice, Minimizing Stress
+              </h1>
 
-            <h2 className="font-body text-amircani-secondary text-xl md:text-2xl font-semibold mb-6">
-              Atlanta Personal Injury
-            </h2>
+              <h2 className="font-body text-amircani-secondary text-xl md:text-2xl font-semibold mb-6">
+                Atlanta Personal Injury
+              </h2>
 
-            <p className="font-body text-white text-base leading-relaxed mb-8">
-              The accident attorneys at Amircani Law in Atlanta, GA are committed to fighting for the compensation people injured by negligent parties deserve.
-            </p>
+              <p className="font-body text-white text-base leading-relaxed mb-8">
+                The accident attorneys at Amircani Law in Atlanta, GA are committed to fighting for the compensation people injured by negligent parties deserve.
+              </p>
 
-            <a
-              href="#contact"
-              className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
-            >
-              FREE CASE REVIEW
-            </a>
-          </div>
+              <a
+                href="#contact"
+                className="bg-amircani-secondary hover:bg-amircani-secondary/80 text-amircani-primary font-inter font-bold text-sm px-6 md:px-8 py-3 rounded-full border border-amircani-secondary transition-all duration-150 uppercase tracking-[2px] inline-block text-center"
+              >
+                FREE CASE REVIEW
+              </a>
+            </div>
 
-          {/* Right Column - Attorney Image */}
-          <div className="flex justify-center lg:justify-end items-end h-full">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8d9da819288d44bb8810df91c75f6e9a?format=webp&width=800"
-              alt="Maha Amircani - Attorney"
-              className="w-full max-w-md h-auto object-cover object-bottom"
-            />
+            {/* Right Column - Attorney Image */}
+            <div className="relative h-full flex items-end justify-center lg:justify-end">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F8d9da819288d44bb8810df91c75f6e9a?format=webp&width=800"
+                alt="Maha Amircani - Attorney"
+                className="w-full max-w-md h-auto object-contain object-bottom self-end"
+              />
+            </div>
           </div>
         </div>
       </div>
