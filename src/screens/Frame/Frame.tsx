@@ -18,8 +18,8 @@ export const Frame = (): JSX.Element => {
         <BadgesSection />
         <PersonalInjuryServicesSection />
         <WhyChooseUsSection />
-        <AboutUsSection />
         <AttorneySection />
+        <AboutUsSection />
         <ClientTestimonialsSection />
         <CallToActionMainSection />
         <ContactSection />
