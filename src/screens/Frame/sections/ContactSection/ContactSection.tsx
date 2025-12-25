@@ -139,7 +139,9 @@ export const ContactSection = (): JSX.Element => {
                 <div className="flex items-start">
                   <Phone className="w-5 h-5 text-amircani-secondary mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-body text-amircani-primary font-medium">(678) 280-7389</p>
+                    <a href="tel:6782807389" className="font-body text-amircani-primary font-medium hover:text-amircani-secondary transition-colors duration-150">
+                      (678) 280-7389
+                    </a>
                     <p className="font-body text-gray-600 text-sm">Available 24/7</p>
                   </div>
                 </div>
